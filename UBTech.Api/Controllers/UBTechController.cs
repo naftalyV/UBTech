@@ -10,7 +10,7 @@ namespace UBTech.Api.Controllers
     public class UBTechController : ApiController
     {
         [HttpGet]
-        IHttpActionResult GetAllPeople()
+        IHttpActionResult GetAllPeopleApi()
         {
             return Ok();
         }

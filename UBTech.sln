@@ -6,10 +6,21 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBtech.Entities", "UBtech.Entities\UBtech.Entities.csproj", "{767E78A5-33FD-44C0-9929-E5957B5B886E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBtech.Dal", "UBtech.Dal\UBtech.Dal.csproj", "{36462754-BF59-404A-BE06-B5F63F07350F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{767E78A5-33FD-44C0-9929-E5957B5B886E} = {767E78A5-33FD-44C0-9929-E5957B5B886E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Api", "UBTech.Api\UBTech.Api.csproj", "{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F} = {4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}
+		{767E78A5-33FD-44C0-9929-E5957B5B886E} = {767E78A5-33FD-44C0-9929-E5957B5B886E}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Bl", "UBTech.Bl\UBTech.Bl.csproj", "{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36462754-BF59-404A-BE06-B5F63F07350F} = {36462754-BF59-404A-BE06-B5F63F07350F}
+		{767E78A5-33FD-44C0-9929-E5957B5B886E} = {767E78A5-33FD-44C0-9929-E5957B5B886E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

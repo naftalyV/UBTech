@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\PersonConverter.cs" />
     <Compile Include="Persons.cs">
       <DependentUpon>UBTechModel.tt</DependentUpon>
     </Compile>
@@ -76,6 +77,7 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>UBTechModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Compile Include="Person_Dal.cs" />
     <None Include="UBTechModel.edmx.diagram">
       <DependentUpon>UBTechModel.edmx</DependentUpon>
     </None>
@@ -94,6 +96,12 @@
       <DependentUpon>UBTechModel.edmx</DependentUpon>
       <LastGenOutput>UBTechModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UBtech.Entities\UBtech.Entities.csproj">
+      <Project>{767E78A5-33FD-44C0-9929-E5957B5B886E}</Project>
+      <Name>UBtech.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
