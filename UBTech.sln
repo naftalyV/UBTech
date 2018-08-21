@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBtech.Entities", "UBtech.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBtech.Dal", "UBtech.Dal\UBtech.Dal.csproj", "{36462754-BF59-404A-BE06-B5F63F07350F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Api", "UBTech.Api\UBTech.Api.csproj", "{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Bl", "UBTech.Bl\UBTech.Bl.csproj", "{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{36462754-BF59-404A-BE06-B5F63F07350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36462754-BF59-404A-BE06-B5F63F07350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36462754-BF59-404A-BE06-B5F63F07350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8D0AC8E-69D5-438E-99F4-BBAD660C8777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A690D45-ACA8-414E-ACCD-CA7223CDFD3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
