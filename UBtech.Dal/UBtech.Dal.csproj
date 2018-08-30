@@ -54,6 +54,7 @@
       <DependentUpon>UBTechModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UBTechDal.cs" />
     <Compile Include="UBTechModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using UBTech.Bl;
 
 namespace UBTech.Api.Controllers
 {
@@ -12,7 +13,7 @@ namespace UBTech.Api.Controllers
         [HttpGet]
         public IHttpActionResult GetAllNames()
         {
-            return Ok();
+            return Ok(UBTechBl.GetAllPeopleBl());
         }
     }
 }
