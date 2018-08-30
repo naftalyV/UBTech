@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Bl", "UBTech.Bl\UBTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Api", "UBTech.Api\UBTech.Api.csproj", "{BFA0AEF7-D8F2-4F77-93E2-5F95E29E2627}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBTech.Client", "UBTech.Client\UBTech.Client.csproj", "{F08F3F7C-EFAB-4912-BC13-061C00441A11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{BFA0AEF7-D8F2-4F77-93E2-5F95E29E2627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA0AEF7-D8F2-4F77-93E2-5F95E29E2627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA0AEF7-D8F2-4F77-93E2-5F95E29E2627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08F3F7C-EFAB-4912-BC13-061C00441A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08F3F7C-EFAB-4912-BC13-061C00441A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08F3F7C-EFAB-4912-BC13-061C00441A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08F3F7C-EFAB-4912-BC13-061C00441A11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
